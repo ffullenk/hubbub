@@ -1,0 +1,16 @@
+Testsuite: com.grailsinaction.PostIntegrationTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0,113 sec
+------------- Standard Output ---------------
+--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+------------- ---------------- ---------------
+
+Testcase: testFirstPost took 0,063 sec
+Testcase: testAccessingPosts took 0,025 sec
+Testcase: testPostWithTags took 0,018 sec

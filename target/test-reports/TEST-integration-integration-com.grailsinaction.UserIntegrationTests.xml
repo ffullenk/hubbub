@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="pavilion64" name="com.grailsinaction.UserIntegrationTests" tests="6" time="0.671" timestamp="2012-07-10T05:11:13">
+  <properties />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.456" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.033" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.023" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSanveAndUpdate" time="0.023" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.09" />
+  <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.024" />
+  <system-out><![CDATA[--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+--Output from testFirstSaveEver--
+--Output from testSanveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+]]></system-out>
+  <system-err><![CDATA[--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+--Output from testFirstSaveEver--
+--Output from testSanveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+]]></system-err>
+</testsuite>

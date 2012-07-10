@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="pavilion64" name="com.grailsinaction.PostIntegrationTests" tests="3" time="0.113" timestamp="2012-07-10T05:11:13">
+  <properties />
+  <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.063" />
+  <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.025" />
+  <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.018" />
+  <system-out><![CDATA[--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+]]></system-out>
+  <system-err><![CDATA[--Output from testFirstPost--
+--Output from testAccessingPosts--
+--Output from testPostWithTags--
+]]></system-err>
+</testsuite>
