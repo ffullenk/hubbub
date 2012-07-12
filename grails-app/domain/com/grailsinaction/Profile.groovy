@@ -1,6 +1,15 @@
 package com.grailsinaction
 
 class Profile {
+	
+	byte[] photo
+	String fullName
+	String bio
+	String homepage
+	String email
+	String timezone
+	String country
+	String jabberAddress
 
 	static belongsTo = User
 	
@@ -13,17 +22,16 @@ class Profile {
 		country(nullable: true)
 		timezone(nullable: true)
 		jabberAddress(email: true, nullable: true)
+
 		
     }
 	
-	byte[] photo
-	String fullName
-	String bio
-	String homepage
-	String email
-	String timezone
-	String country
-	String jabberAddress
+	String toString() {
+		"Profile for ${fullName} (${id})"
+		}
+		
+	
+
 	
 	
 	
