@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="pavilion64" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.113" timestamp="2012-07-10T05:11:13">
+  <testsuite errors="0" failures="0" hostname="pavilion64" id="0" name="PostIntegrationTests" package="com.grailsinaction" tests="3" time="0.142" timestamp="2012-07-13T18:55:40">
       <properties />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.063" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testFirstPost" time="0.037" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.025" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testAccessingPosts" time="0.061" />
 
-      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.018" />
+      <testcase classname="com.grailsinaction.PostIntegrationTests" name="testPostWithTags" time="0.039" />
 
       <system-out><![CDATA[--Output from testFirstPost--
 --Output from testAccessingPosts--
@@ -20,35 +20,47 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="pavilion64" id="1" name="UserIntegrationTests" package="com.grailsinaction" tests="6" time="0.671" timestamp="2012-07-10T05:11:13">
+  <testsuite errors="0" failures="0" hostname="pavilion64" id="1" name="QueryIntegrationTests" package="com.grailsinaction" tests="1" time="0.141" timestamp="2012-07-13T18:55:40">
       <properties />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.456" />
+      <testcase classname="com.grailsinaction.QueryIntegrationTests" name="testBasicDynamicFinders" time="0.138" />
 
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.033" />
-
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.023" />
-
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSanveAndUpdate" time="0.023" />
-
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.09" />
-
-      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.024" />
-
-      <system-out><![CDATA[--Output from testEvilSaveCorrected--
---Output from testFollowing--
---Output from testFirstSaveEver--
---Output from testSanveAndUpdate--
---Output from testSaveThenDelete--
---Output from testEvilSave--
+      <system-out><![CDATA[--Output from testBasicDynamicFinders--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testEvilSaveCorrected--
---Output from testFollowing--
---Output from testFirstSaveEver--
+      <system-err><![CDATA[--Output from testBasicDynamicFinders--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="pavilion64" id="2" name="UserIntegrationTests" package="com.grailsinaction" tests="6" time="0.328" timestamp="2012-07-13T18:55:40">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFirstSaveEver" time="0.038" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSanveAndUpdate" time="0.031" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testSaveThenDelete" time="0.029" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSave" time="0.076" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testEvilSaveCorrected" time="0.046" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationTests" name="testFollowing" time="0.087" />
+
+      <system-out><![CDATA[--Output from testFirstSaveEver--
 --Output from testSanveAndUpdate--
 --Output from testSaveThenDelete--
 --Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+--Output from testFollowing--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testFirstSaveEver--
+--Output from testSanveAndUpdate--
+--Output from testSaveThenDelete--
+--Output from testEvilSave--
+--Output from testEvilSaveCorrected--
+--Output from testFollowing--
 ]]></system-err>
 
   </testsuite>
